@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>e-Comandas</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body onload="loadaPedido()">
+    <div class="topo">
+        <img src="images/logo.png">
+    </div>
+    <div class="input" id="input_mesaAdicionarPedido">
+        <label>NÚMERO DA MESA:</label>
+        <input id="mesa" type="number" name="mesa" />
+    </div>
+    <div class="input" id="input_pessoasAdicionarPedido">
+        <label>NÚMERO DE PESSOAS:</label>
+        <input id="pessoas" type="number" name="pessoas" />
+    </div>
+    <div id="add">
+
+    </div>
+    <div class="input" id="input_produtoAdicionarPedido">
+        <label>NÚMERO DE PRODUTOS:</label>
+        <input type="number" id="nmroProdutos" name="nmroProdutos">
+    </div>
+    <div id="addProduto">
+
+    </div>
+    <div class="botaoSecundario">
+        <button onclick="location.href='garcom.html'" id="voltarGarcomAdicionarPedido"><label>VOLTAR</label></button>
+        <button onclick="adicionaPedido()" id="okGarcomAdicionarPedido"><label>OK</label></button>
+    </div>
+</body>
+
+</html>

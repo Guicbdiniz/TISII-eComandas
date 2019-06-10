@@ -1,0 +1,15 @@
+Comanda - Mesa 1
+Total a pagar: R$30.0 
+	Número de pedidos: 1
+
+	Pedido - Número 29:
+	Solicitantes:
+		Solicitante - Gugu
+		Solicitante - Faustao
+	Produtos:
+		Produto - Torta de Frango
+		Produto - Torta de Frango
+		Produto - Torta de Frango
+Quanto cada solicitante deve pagar:
+	Solicitante - Gugu: R$15.0
+	Solicitante - Faustao: R$15.0

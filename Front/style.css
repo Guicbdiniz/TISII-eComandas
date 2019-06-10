@@ -1,0 +1,552 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+input{
+    border-style: none;
+    width: 85%;
+    background-color: #DC001D;
+    color: white;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+ 
+ }
+
+.topo{
+    width: 100%;
+    height: 100px;
+    background-color: #DC001D;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.topo img{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.selecao{
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    margin-top: 2%;
+}
+
+select{
+    margin: 0 auto;
+    width: 200px; 
+    height: 30px;
+    color: white;
+    background-color: #DC001D;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+option{
+    margin-left: 2%;
+}
+
+
+#dados{
+    display: grid;
+    font-family: 'Work Sans', sans-serif;
+    margin: 30px 15%;
+    grid-template-columns: 100%;
+}
+.produtoVisualizar{
+    margin-top: 2px;
+    border-radius: 5px;
+    background-color: #DC001D;
+    color: white;
+    padding: 1% 1%;
+}
+
+.botaoPrincipal button{
+    margin: 0 auto;
+    width: 50%;
+    height: 14vh;
+    background-color: #DC001D;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.botaoPrincipal button label{
+    margin: 0 auto;
+    text-align: center;
+    color:  rgb(226, 226, 226);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#botao_cliente{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#botao_funcionario{
+    text-align: center;
+    border-radius: 10px;
+}
+
+#chamarGarcom{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#visualizarPedidos{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+#manutencaoAlt{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#manutencaoAdd{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+#manutencaoExc{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+#garcomAbrirComanda{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#garcomAdicionarPedido{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+#garcomAdicionarSolicitante{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1%
+}
+
+#garcomFecharComanda{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.botaoSecundario button{
+    float: right;
+    width: 100px;
+    height: 45px;
+    background-color: #DC001D;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.botaoSecundario button label{
+    margin: 0 auto;
+    text-align: center;
+    color:  rgb(226, 226, 226);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#voltarLoginFuncionario{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okLoginFuncionario{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarClienteMesa{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okClienteMesa{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarClienteAcoes{
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarManutencao{
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okAdicionarProduto{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okAdicionarSolicitante{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarAdicionarProduto{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarAdicionarSolicitante{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px
+}
+
+#okAlterarProduto{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarAlterarProduto{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okExcluirProduto{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarExcluirProduto{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarGarcom{
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okCadastroFuncionario{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarCadastroFuncionario{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okGarcomAbrirComanda{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarGarcomAbrirComanda{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okGarcomFecharComanda{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarGarcomFecharComanda{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#okGarcomAdicionarPedido{
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#voltarGarcomAdicionarPedido{
+    margin-right: 24%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input{
+    margin: 0 auto;
+    text-align:left;
+    padding: 2.5vmin;
+    width: 50%;
+    height: auto;
+    background-color:#DC001D;
+    color: white;
+    border-radius: 10px;
+}
+
+.inputRadioAdicionar{
+    background-color: #DC001D;
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2.5vmin;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-bottom: 2%
+}
+
+.categoriaRadio{
+    width: auto;
+}
+
+#input_login{
+    margin-top: 7%;
+}
+
+#input_senha{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#input_mesa{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#input_produtoAdicionar{
+    margin-top: 4%;
+}
+
+#input_descricaoProdutoAdicionar{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#input_codigoProdutoAdicionar{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#input_precoProdutoAdicionar{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#input_produtoAlterar{
+    margin-top: 7%;
+}
+
+#input_descricaoProdutoAlterar{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#input_codigoProdutoAlterar{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#input_precoProdutoAlterar{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#input_produtoExcluir{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#input_loginCadastro{
+    margin-top: 7%;
+}
+
+#input_senhaCadastro{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#input_tipoCadastro{
+    margin-bottom: 2%;
+}
+
+#input_mesaAbrirComanda{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#input_mesaAddSolicitante{
+    margin-top: 5%;
+    margin-bottom: 2%
+}
+
+#input_nomeSolicitante{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#input_mesaFecharComanda{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#input_mesaAdicionarPedido{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#input_pessoasAdicionarPedido{
+    margin-bottom: 2%;
+}
+
+#input_nomePessoasAdicionarPedido{
+    margin-bottom: 1%;
+}
+
+#input_produtoAdicionarPedido{
+    margin-bottom: 2%;
+}
+
+#input_nomeProdutoAdicionarPedido{
+    margin-bottom: 1%;
+}
+
+.comandaFechada{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #DC001D;
+    color: white;
+    padding: 3% 1%;
+}
+
+.comandasFechadas{
+    display: grid;
+    font-family:  'Work Sans', sans-serif;
+    margin: 20px 15%;
+    grid-template-columns: 60% 40%;
+}
+
+.botaoImprimir{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #DC001D;
+    color: white;
+    padding: 1% 1%;
+    border: none;
+    cursor: pointer;
+}
+
+.botaoImprimir:hover{
+    background-color: #DC102D
+}
+
+@media (max-width: 575px) {
+    .topo img{
+        /* background-color: yellow; */
+    }
+    .botaoPrincipal button{
+        width: 70%;
+    }
+    #botao_cliente{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 576px) {
+    .topo img{
+        /* background-color: orangered; */
+    }
+    .botaoPrincipal button{
+        width: 70%;
+    }
+    #botao_cliente{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 768px) {
+    .topo img{
+        /* background-color: green; */
+    }
+    .botaoPrincipal button{
+        width: 60%;
+    }
+    #botao_cliente{
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+}
+@media (min-width: 992px) {
+    .topo img{
+        /* background-color: blue; */
+    }
+    .botaoPrincipal button{
+        width: 50%;
+    }
+    #botao_cliente{
+        margin-top: 7%;
+        margin-bottom: 2%;
+    }
+}
+@media (min-width: 1200px) {
+    .topo img{
+        /* background-color: pink; */
+    }
+    .botaoPrincipal button{
+        width: 50%;
+    }
+    #botao_cliente{
+        margin-top: 7%;
+        margin-bottom: 2%;
+    }
+}
+
+
